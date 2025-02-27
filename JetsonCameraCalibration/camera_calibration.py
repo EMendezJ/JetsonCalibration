@@ -4,11 +4,11 @@ import numpy as np
 import glob 
 
 # Chessboard dimensions
-number_of_squares_X = 8 
-number_of_squares_Y = 8  
+number_of_squares_X = 12 
+number_of_squares_Y = 10 
 nX = number_of_squares_X - 1 
 nY = number_of_squares_Y - 1
-square_size = 0.016 # Size, in meters, of a square side 
+square_size = 0.04 # Size, in meters, of a square side 
   
 # Set termination criteria. We stop either when an accuracy is reached or when
 # we have finished a certain number of iterations.
@@ -32,7 +32,7 @@ image_points = []
 def main():
       
   # Get the file path for images in the current directory
-  images = glob.glob('*.jpg')
+  images = glob.glob('*.png')
       
   # Go through each chessboard image, one by one
   for image_file in images:
