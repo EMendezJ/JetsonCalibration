@@ -6,7 +6,7 @@ import math
 
 
 # Dictionary that was used to generate the ArUco marker
-aruco_dictionary_name = "DICT_4X4_50"
+aruco_dictionary_name = "DICT_5X5_1000"
 
 # The different ArUco dictionaries built into the OpenCV library. 
 ARUCO_DICT = {
