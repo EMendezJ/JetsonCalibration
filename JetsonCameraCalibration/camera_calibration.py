@@ -4,8 +4,8 @@ import numpy as np
 import glob 
 
 # Chessboard dimensions
-number_of_squares_X = 12 
-number_of_squares_Y = 10 
+number_of_squares_X = 11 
+number_of_squares_Y = 9 
 nX = number_of_squares_X - 1 
 nY = number_of_squares_Y - 1
 square_size = 0.04 # Size, in meters, of a square side 
